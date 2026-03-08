@@ -1,9 +1,24 @@
 # Daily-papers
-Daily papers from ai ml recsys
 
-## Emerging Search Queries for arXiv RecSys Tracking
+Daily papers from AI, ML, and RecSys research.
 
 *Last updated: 2026-03-08*
+
+## Papers by Topic
+
+| Topic | File | Papers |
+|-------|------|--------|
+| Scaling Laws & Large Recommendation Models | [papers/scaling-laws-and-large-recommendation-models.md](papers/scaling-laws-and-large-recommendation-models.md) | 6 |
+| Industrial Ranking & CTR Prediction | [papers/industrial-ranking-and-ctr-prediction.md](papers/industrial-ranking-and-ctr-prediction.md) | 6 |
+| Generative Recommendation & Semantic IDs | [papers/generative-recommendation-and-semantic-ids.md](papers/generative-recommendation-and-semantic-ids.md) | 7 |
+| LLM-Powered Recommender Systems | [papers/llm-powered-recommender-systems.md](papers/llm-powered-recommender-systems.md) | 8 |
+| Sequential & Behavior Modeling | [papers/sequential-and-behavior-modeling.md](papers/sequential-and-behavior-modeling.md) | 6 |
+| On-Device & Efficient Recommendation | [papers/on-device-and-efficient-recommendation.md](papers/on-device-and-efficient-recommendation.md) | 3 |
+| Reranking & Listwise Optimization | [papers/reranking-and-listwise-optimization.md](papers/reranking-and-listwise-optimization.md) | 3 |
+| Multimodal Recommendation | [papers/multimodal-recommendation.md](papers/multimodal-recommendation.md) | 3 |
+| Graph Neural Networks for Recommendation | [papers/graph-neural-networks-for-recommendation.md](papers/graph-neural-networks-for-recommendation.md) | 2 |
+
+## Emerging Search Queries for arXiv RecSys Tracking
 
 The following queries were discovered through adaptive follow-up analysis and should be added to regular monitoring:
 
