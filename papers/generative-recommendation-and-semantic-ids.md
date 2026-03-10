@@ -1,6 +1,6 @@
 # Generative Recommendation & Semantic IDs
 
-> Semantic IDs are becoming the dominant item representation paradigm for generative recommenders; collision handling (QuaSID) and efficient compression (ACERec) are the active research frontiers.
+> Semantic IDs are the dominant item representation; GRPO-based RL (GRC, V-STAR, GR4AD) and non-autoregressive decoding (MDGR) are the active research frontiers alongside collision handling and compression.
 
 | Paper | Link | Key Details | Date | Company/Institution |
 |-------|------|-------------|------|---------------------|
@@ -11,3 +11,9 @@
 | **QuaSID: Qualification-Aware Semantic ID Learning at Industrial Scale** | [arXiv:2603.00632](https://arxiv.org/abs/2603.00632) | Addresses semantic ID collisions by selectively repelling conflict pairs scaled by collision severity. | 2026-03 | — |
 | **Variable-Length Semantic IDs for Recommender Systems** | [arXiv:2602.16375](https://arxiv.org/abs/2602.16375) | Bridges recsys and emergent communication with adaptive-length item representations via discrete VAE. | 2026-02 | — |
 | **When Text-as-Vision Meets Semantic IDs** | [arXiv:2601.14697](https://arxiv.org/abs/2601.14697) | OCR-based text representations match or surpass standard text embeddings for semantic ID learning. | 2026-01 | — |
+| ⭐ **GR4AD: Generative Recommendation for Large-Scale Advertising** | [arXiv:2602.22732](https://arxiv.org/abs/2602.22732) | Production generative recommender with LazyAR decoder relaxing layer-wise dependencies, RSPO list-wise RL, and dynamic beam serving. +4.2% ad revenue over DLRM stack. | 2026-02 | — |
+| **GRC: Learning to Reflect and Correct for Generative Recommendation** | [arXiv:2602.23639](https://arxiv.org/abs/2602.23639) | First reflection-correction framework for GR; Generation→Reflection→Correction with GRPO-based RL and entropy-guided scheduling. +1.79% ad revenue, +2.11% CTR online. | 2026-02 | — |
+| **V-STAR: Value-Guided Structured Sampling for Generative Recommendation** | [arXiv:2602.10699](https://arxiv.org/abs/2602.10699) | Fixes probability-reward mismatch in RL-tuned generative recommenders via value-guided decoding and sibling-GRPO optimization. | 2026-02 | — |
+| **UGR: Uncertainty-aware Generative Recommendation** | [arXiv:2602.11719](https://arxiv.org/abs/2602.11719) | Uncertainty-weighted rewards, difficulty-aware optimization, and confidence alignment to fix "uncertainty blindness" in GR. | 2026-02 | USTC |
+| **MDGR: Masked Diffusion Generative Recommendation** | [arXiv:2601.19501](https://arxiv.org/abs/2601.19501) | Replaces autoregressive with masked diffusion over parallel codebooks. +10.78% vs baselines; online +1.20% revenue, +3.69% GMV, +2.36% CTR. | 2026-01 | — |
+| **TrieRec: Trie-Aware Transformers for Generative Recommendation** | [arXiv:2602.21677](https://arxiv.org/abs/2602.21677) | Trie-aware positional encodings (TAE + TRE) inject structural inductive biases for semantic ID decoding. +8.83% avg improvement, model-agnostic. | 2026-02 | — |
