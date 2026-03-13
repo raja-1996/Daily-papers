@@ -12,3 +12,5 @@
 | **AlignUSER: Human-Aligned LLM Agents for RecSys Evaluation** | [arXiv:2601.00930](https://arxiv.org/abs/2601.00930) | World-model-driven agents from human interactions for counterfactual trajectory generation. | 2026-01 | — |
 | **ScienceDB AI: LLM-Driven Agentic Recommender for Scientific Data** | [arXiv:2601.01118](https://arxiv.org/abs/2601.01118) | +200% CTR vs keyword search on one of the largest scientific data platforms. | 2026-01 | — |
 | **DUIP: Enhancing User Intent via LLMs** | [arXiv:2501.10871](https://arxiv.org/abs/2501.10871) | LSTM + LLM hybrid for dynamic user intent prediction. | 2026-01 | — |
+| **Less is More: Benchmarking LLM-Based Recommendation Agents** | [arXiv:2601.20316](https://arxiv.org/abs/2601.20316) | 5–10 items context matches 50-item quality with 88% inference cost reduction. Benchmarks GPT-4o-mini, DeepSeek-V3, Qwen2.5-72B, Gemini 2.5 Flash. | 2026-01 | — |
+| **MiniRec: Data-Efficient RL for LLM-based Recommendation** | [arXiv:2602.04278](https://arxiv.org/abs/2602.04278) | Reward-based sample selection prunes too-easy/too-hard samples for efficient RL training of LLM recommenders. | 2026-02 | — |

@@ -2,19 +2,19 @@
 
 Daily papers from AI, ML, and RecSys research.
 
-*Last updated: 2026-03-10*
+*Last updated: 2026-03-13*
 
 ## Papers by Topic
 
 | Topic | File | Papers |
 |-------|------|--------|
 | Scaling Laws & Large Recommendation Models | [papers/scaling-laws-and-large-recommendation-models.md](papers/scaling-laws-and-large-recommendation-models.md) | 6 |
-| Industrial Ranking & CTR Prediction | [papers/industrial-ranking-and-ctr-prediction.md](papers/industrial-ranking-and-ctr-prediction.md) | 8 |
-| Generative Recommendation & Semantic IDs | [papers/generative-recommendation-and-semantic-ids.md](papers/generative-recommendation-and-semantic-ids.md) | 13 |
-| LLM-Powered Recommender Systems | [papers/llm-powered-recommender-systems.md](papers/llm-powered-recommender-systems.md) | 8 |
-| Sequential & Behavior Modeling | [papers/sequential-and-behavior-modeling.md](papers/sequential-and-behavior-modeling.md) | 6 |
+| Industrial Ranking & CTR Prediction | [papers/industrial-ranking-and-ctr-prediction.md](papers/industrial-ranking-and-ctr-prediction.md) | 10 |
+| Generative Recommendation & Semantic IDs | [papers/generative-recommendation-and-semantic-ids.md](papers/generative-recommendation-and-semantic-ids.md) | 17 |
+| LLM-Powered Recommender Systems | [papers/llm-powered-recommender-systems.md](papers/llm-powered-recommender-systems.md) | 10 |
+| Sequential & Behavior Modeling | [papers/sequential-and-behavior-modeling.md](papers/sequential-and-behavior-modeling.md) | 7 |
 | On-Device & Efficient Recommendation | [papers/on-device-and-efficient-recommendation.md](papers/on-device-and-efficient-recommendation.md) | 3 |
-| Reranking & Listwise Optimization | [papers/reranking-and-listwise-optimization.md](papers/reranking-and-listwise-optimization.md) | 4 |
+| Reranking & Listwise Optimization | [papers/reranking-and-listwise-optimization.md](papers/reranking-and-listwise-optimization.md) | 5 |
 | Multimodal Recommendation | [papers/multimodal-recommendation.md](papers/multimodal-recommendation.md) | 4 |
 | Graph Neural Networks for Recommendation | [papers/graph-neural-networks-for-recommendation.md](papers/graph-neural-networks-for-recommendation.md) | 2 |
 
@@ -44,3 +44,18 @@ The following queries were discovered through adaptive follow-up analysis and sh
 
 ### Listwise & Generative Reranking
 - `arxiv listwise reranking generative LLM recommendation` — Listwise reranking is converging with generative models; autoregressive ranking and zero-LLM-call graph approaches are notable.
+
+### Post-Training & Alignment for Generative Recommenders
+- `arxiv post-training RLHF alignment generative recommender` — Post-training/alignment for generative recommenders is a fast-growing subfield; exponential reward-weighted SFT, SAGE, and GRC all address reward collapse and hacking issues.
+
+### Cold-Start with Multimodal LLMs
+- `arxiv cold-start multimodal LLM CTR prediction embedding` — Multimodal LLMs for cold-start CTR is a distinct new production pattern (IDProxy at Xiaohongshu, MARS at Kuaishou).
+
+### Constrained Generative Reranking
+- `arxiv constraint-aware generative reranking advertising` — Constrained optimization in generative reranking (CGR) is emerging as a distinct problem from unconstrained listwise reranking.
+
+### Hierarchical Session-Aware Generative Recommendation
+- `arxiv hierarchical preference-aware generative recommendation` — Session-hierarchical modeling (HPGR, HiGR) is a clear architectural trend beyond flat-sequence HSTU approaches.
+
+### RL/Reward Optimization for Recommenders
+- `arxiv recommendation reinforcement learning reward model` — RL/reward optimization is converging with generative rec (MiniRec data-efficient RL, SAGE sequence-level RL, Robust Post-Training).
