@@ -2,20 +2,20 @@
 
 Daily papers from AI, ML, and RecSys research.
 
-*Last updated: 2026-03-13*
+*Last updated: 2026-03-18*
 
 ## Papers by Topic
 
 | Topic | File | Papers |
 |-------|------|--------|
-| Scaling Laws & Large Recommendation Models | [papers/scaling-laws-and-large-recommendation-models.md](papers/scaling-laws-and-large-recommendation-models.md) | 6 |
+| Scaling Laws & Large Recommendation Models | [papers/scaling-laws-and-large-recommendation-models.md](papers/scaling-laws-and-large-recommendation-models.md) | 7 |
 | Industrial Ranking & CTR Prediction | [papers/industrial-ranking-and-ctr-prediction.md](papers/industrial-ranking-and-ctr-prediction.md) | 10 |
-| Generative Recommendation & Semantic IDs | [papers/generative-recommendation-and-semantic-ids.md](papers/generative-recommendation-and-semantic-ids.md) | 17 |
-| LLM-Powered Recommender Systems | [papers/llm-powered-recommender-systems.md](papers/llm-powered-recommender-systems.md) | 10 |
-| Sequential & Behavior Modeling | [papers/sequential-and-behavior-modeling.md](papers/sequential-and-behavior-modeling.md) | 7 |
+| Generative Recommendation & Semantic IDs | [papers/generative-recommendation-and-semantic-ids.md](papers/generative-recommendation-and-semantic-ids.md) | 21 |
+| LLM-Powered Recommender Systems | [papers/llm-powered-recommender-systems.md](papers/llm-powered-recommender-systems.md) | 14 |
+| Sequential & Behavior Modeling | [papers/sequential-and-behavior-modeling.md](papers/sequential-and-behavior-modeling.md) | 8 |
 | On-Device & Efficient Recommendation | [papers/on-device-and-efficient-recommendation.md](papers/on-device-and-efficient-recommendation.md) | 3 |
 | Reranking & Listwise Optimization | [papers/reranking-and-listwise-optimization.md](papers/reranking-and-listwise-optimization.md) | 5 |
-| Multimodal Recommendation | [papers/multimodal-recommendation.md](papers/multimodal-recommendation.md) | 4 |
+| Multimodal Recommendation | [papers/multimodal-recommendation.md](papers/multimodal-recommendation.md) | 5 |
 | Graph Neural Networks for Recommendation | [papers/graph-neural-networks-for-recommendation.md](papers/graph-neural-networks-for-recommendation.md) | 2 |
 
 ## Emerging Search Queries for arXiv RecSys Tracking
@@ -59,3 +59,15 @@ The following queries were discovered through adaptive follow-up analysis and sh
 
 ### RL/Reward Optimization for Recommenders
 - `arxiv recommendation reinforcement learning reward model` — RL/reward optimization is converging with generative rec (MiniRec data-efficient RL, SAGE sequence-level RL, Robust Post-Training).
+
+### Diffusion Models for Generative Recommendation
+- `arxiv diffusion model generative recommendation semantic ID` — Masked discrete diffusion (DiffGRM, MaskGR, LLaDA-Rec, MDGR) is emerging as the primary non-autoregressive alternative for semantic ID generation, with WWW 2026 and KDD 2026 publications.
+
+### Continual/Incremental LLM Personalization
+- `arxiv preference drift incremental learning LLM recommender` — Preference drift adaptation (RAIE, SPRInG) is becoming a distinct subfield, using region-aware LoRA editing and drift-driven selective parametric updates.
+
+### RL-from-RecSys-Feedback for LLMs
+- `arxiv reinforcement learning LLM recommendation closed-loop reward` — Closed-loop RL from rec model feedback (Rec-R1, ReRe) is a new training paradigm distinct from SFT distillation, enabling LLMs to optimize directly against recommendation metrics.
+
+### Embedding Backbones for Recommendation
+- `arxiv embedding backbone recommendation contrastive semantic ID` — Purpose-built embedding backbones (EncodeRec) that align PLM representations with rec objectives are solving semantic ID collision and improving generative rec tokenization quality.
